@@ -1,0 +1,22 @@
+mixin requirejs(module)
+    script(src="/3p/requirejs/require.js", data-main=module, defer="defer")
+
+!!!
+html
+    head
+        meta(charset="utf-8")
+        title
+            block title
+                | WebGL
+        meta(name="description", content="WebGL Playground")
+
+        //- You'll need this to make media queries work in the stylesheet
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="shortcut icon", href="/favicon.ico")
+        link(rel="stylesheet", href="/css/style.css")
+
+        block scripts
+
+    body
+        .page.hideUntilReady.hide-for-prefixfree
+             block content

@@ -1,0 +1,9 @@
+extend ../_layout
+
+append title
+    | - My 1
+
+block scripts
+    mixin requirejs('/js/my_1.js')
+
+block content

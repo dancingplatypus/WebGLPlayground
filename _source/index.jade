@@ -1,0 +1,17 @@
+extends _layout
+
+block scripts
+    mixin requirejs('/js/index.js')
+    script(type="text/javascript")
+        require('bootstrap');
+
+block content
+    h1 WebGL Playground
+    ul
+        li: a(href="my/my_1.html") My own crap
+        li: a(href="my/my_2.html") Using streamlined glut
+        br
+        li: a(href="glsl_testshader_1.html") Working with GLSL
+        li: a(href="three-js-1.html") Sine Wave of Spinning Cubes
+        br
+        li: a(href="WebGlUpAndRunning/simple3js.html") Simple 3gs

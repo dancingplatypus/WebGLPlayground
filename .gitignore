@@ -1,0 +1,18 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs) (testing)
+*.suo
+*.user
+*.dotcover
+.idea/
+obj/
+bin/
+Output/
+_ReSharper*
+node_modules/
+public/
+pre-stage/
+
+# mstest test results
+TestResults
+/stage
+/_3rdParty/Build
+packages

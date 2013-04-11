@@ -1,0 +1,10 @@
+extends ../_layout
+
+append title
+    | - simple 3js
+
+block scripts
+    mixin requirejs('../js/WebGlUpAndRunning/simple3js');
+
+block content
+    #container

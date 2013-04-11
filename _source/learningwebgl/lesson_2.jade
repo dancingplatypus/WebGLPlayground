@@ -1,0 +1,10 @@
+extend ../_layout
+
+append title
+    | - Lesson 2 - Adding Color
+
+block scripts
+    mixin requirejs('/js/lesson2.js')
+
+block content
+    canvas#lesson1-canvas(width="500",height="500")

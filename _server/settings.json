@@ -1,0 +1,24 @@
+{
+    "facebook": {
+        "applicationId": "233620096769928",
+        "applicationSecret": "b0f1715375e418116eaf1f45d708fac4"
+    },
+    "github": {
+        "consumerKey": "198e2f150016a4a5be66",
+        "consumerSecret": "6a7413d1d3561c894e0b941e663940d70f3f4f09"
+    },
+    "openid": {
+        "callback": "http://asginc.no-ip.net:3030/verify"
+    },
+    "linkedin": {
+        "publicKey": "idudk8gayq9m",
+        "privateKey": "nZ1vpt3wxQt7xe1u"
+    },
+
+    "server" : {
+        "overrideRootPassword" : "rootpassword",
+        "standalonePort" : "3000",
+        "mongoUri" : "root:rootPassword@linus.mongohq.com:10048/ia2?auto_reconnect",
+        "development" : true
+    }
+}
